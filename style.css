@@ -175,7 +175,7 @@ p {
   text-align: center;
 }
 .item {
-  margin: 0 70px;
+  margin: 0 90px;
   text-align: left;
 }
 .item h1 {
@@ -183,6 +183,36 @@ p {
   color: #333;
 }
 /* subscribers */
+
+/* contact-info */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.contact-info .info {
+  display: flex;
+  margin: 0 70px;
+}
+.contact-info .info div {
+  height: 220px;
+  width: 350px;
+  border: 1px solid lightgray;
+  margin: 30px;
+  padding: 50px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.contact-info h1 {
+  color: #333;
+}
+.info p {
+  color: #424242;
+}
+/* contact-info */
 
 footer {
   margin-top: 100px;
